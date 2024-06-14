@@ -10,4 +10,4 @@ cost = [e**2 for e in effort]
 df = pd.DataFrame({'effort': effort, 'cost': cost})
 
 # Display the DataFrame
-print(df)
+df
