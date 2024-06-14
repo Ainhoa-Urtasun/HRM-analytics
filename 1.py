@@ -7,4 +7,4 @@ effort = list(range(1, 376))
 cost = [e**2 for e in effort]
 
 # Create a DataFrame
-data = pd.DataFrame({'effort': effort, 'cost': cost})
+data = pd.DataFrame({'effort': effort, 'cost of effort': cost})
